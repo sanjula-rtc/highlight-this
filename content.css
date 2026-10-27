@@ -1,0 +1,32 @@
+mark.hlthis-mark {
+  background-color: #ffe066 !important;
+  color: inherit !important;
+  padding: 0 !important;
+  border-radius: 2px !important;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+.hlthis-bubble {
+  position: fixed !important;
+  z-index: 2147483647 !important;
+  display: flex !important;
+  align-items: center !important;
+  background: #202124 !important;
+  color: #ffffff !important;
+  font: 13px/1.2 -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif !important;
+  padding: 6px 12px !important;
+  border-radius: 6px !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3) !important;
+  cursor: pointer !important;
+  user-select: none !important;
+  -webkit-user-select: none !important;
+}
+
+.hlthis-bubble:hover {
+  background: #000000 !important;
+}
+
+.hlthis-bubble[hidden] {
+  display: none !important;
+}
